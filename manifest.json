@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Scratch Cloud Exploit",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": ["*://scratch.mit.edu/*"],
+            "run_at":"document_start",
+            "js": ["api.js"],
+            "world": "MAIN"
+        }
+    ],
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ],
+    "host_permissions": [
+        "*://scratch.mit.edu/*"
+    ]
+}
