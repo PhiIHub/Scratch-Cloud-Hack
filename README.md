@@ -1,7 +1,3 @@
-Here’s the revised version with the professional disclaimer integrated:
-
----
-
 # Scratch Cloud Variable Hack
 
 This extension allows you to:
